@@ -23,7 +23,7 @@
     font-style: oblique;
 }
 #header{
-    background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+    background: linear-gradient(to top left, powderblue, pink);
 }
 .myself{
     width:300px;
@@ -53,6 +53,11 @@ main{
 }
 .menu{
     display: flex;
+    justify-content: space-around;
+}
+.item{
+    margin-right: 20px;
+    font-weight: 600;
 }
 .languages{
     display: block;
@@ -74,4 +79,22 @@ main{
 }
 ul{
     list-style-type: none;
+}
+.logo{
+    width: 40%;
+    height: auto;
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background: linear-gradient(to top left, powderblue, pink);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: teal;
+    text-decoration: underline;
 }
